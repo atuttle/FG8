@@ -1,0 +1,295 @@
+@bright-green: #2abb31; //fancy text color
+@dark-green: #005F0B;   //fancy text color shadow
+@bg: #272727;
+@fg: #D8D7D0;
+
+@media (min-width: 980px){
+	body {
+		// padding-top: 80px;
+		padding-top: 0;
+	}
+}
+@media (max-width: 979px){
+	.topfix {
+		display:none;
+	}
+	.contentRow {
+		margin-top: -70px;
+	}
+}
+@media (max-width: 767px) {
+	#endEvents,
+	.banners {
+		display: none;
+	}
+}
+
+body {
+	font-family: 'Droid Sans', Helvetica, sans-serif;
+	background-color: @bg;
+	color: @fg;
+}
+p {
+	line-height: 1.7em;
+	margin: 0 0 18px 0;
+	font-size: 1em;
+}
+
+.topfix {
+	height: 80px;
+}
+.bottomFix {
+	height: 60px;
+}
+.contentRow {
+	margin-top: -60px;
+}
+
+
+//override default theme colors
+.navbar a,
+h1, h2, h3, h4, h5, h6 {
+	color: @bright-green !important;
+}
+.navbar a, h1, h2 {
+	text-shadow: -2px 2px 0 @dark-green !important;
+}
+a, a:hover, a:visited, a:active {
+	color: @bright-green;
+}
+a.btn {
+	color: white;
+}
+.well {
+	background-color: #353535;
+}
+.navbar-inner {
+	background-color: @bg;
+	border: 1px solid @bright-green;
+}
+//navbar dropdowns
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+	background-color: transparent !important;
+}
+.navbar .nav > li > .dropdown-menu::after {
+	border-bottom: 6px solid @dark-green;
+}
+//dropdown menu colorings
+ul.dropdown-menu {
+	background-color: @dark-green;
+	a {
+		color: white !important;
+	}
+}
+.dropdown.open .dropdown-menu > li > a:hover,
+.dropdown.open .dropdown-menu > li.active > a:hover {
+	color: white !important;
+	background-color: @bright-green !important;
+	background-image: none;
+	text-shadow: none !important;
+}
+.dropdown-menu .divider {
+	border-bottom: 1px solid @bright-green;
+}
+
+
+blockquote {
+	border-left: 5px solid orangeRed;
+	padding: 10px 20px 1px 20px;
+
+	p {
+		line-height: 1.7em;
+		margin: 0 0 18px 0;
+		font-size: 1em;
+	}
+	a {
+		color: orangered;
+
+		&:hover {
+			color: orangered;
+		}
+	}
+}
+.modal-header, .modal-body {
+	background-color: desaturate(@bright-green, 20%);
+}
+.modal-footer {
+	// @tmp =
+	background-color: darken(desaturate(@bright-green, 20%), 10%);
+}
+.modal {
+	h1, h2, h3, h4 {
+		color: @dark-green !important;
+		text-shadow: 0 0 4px white;
+	}
+	a {
+		color: @dark-green !important;
+		text-shadow: 0 0 4px white;
+
+		&.btn {
+			color: white !important;
+			text-shadow: none;
+		}
+	}
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	a:hover{
+		text-decoration: none;
+		position: relative;
+		top: 1px;
+		left: -1px;
+	}
+}
+
+//other markings
+.navbar .dropdown-toggle .caret {
+	border-top-color: @bright-green !important;
+	border-bottom-color: @bright-green !important;
+}
+
+//annoying form margins
+form, .pod input {
+	margin-bottom: 0 !important;
+}
+
+.pod {
+	margin-bottom: 15px;
+}
+
+#elsewhere {
+	text-align: center;
+	a {
+		color: @bright-green;
+		margin: 0 5px;
+		&:hover {
+			color: white;
+			text-decoration: none;
+		}
+	}
+}
+
+#sidebar {
+	margin-top: 20px;
+
+	.events {
+		text-align: center;
+	}
+	.location, .lanyrd-date {
+		display: none;
+	}
+	// hr {
+	// 	margin-top: 40px;
+	// }
+}
+
+.adam {
+	width: 100px;
+	max-width: 270px;
+
+	display: block;
+	float: right;
+	margin-bottom: 15px;
+	border-radius: 8px;
+	border-bottom-right-radius: 0;
+	cursor: pointer;
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.banners {
+	text-align: center;
+	img {
+	}
+}
+
+li {
+	line-height: 1.5em;
+	padding-top: 0.3em;
+}
+
+pre {
+	&.prettyprint {
+		overflow-x: scroll;
+		font-size: 0.9em;
+	}
+}
+
+#comments {
+
+	padding-top: 80px;
+
+	.comment {
+		padding: 10px;
+		background-color: #333;
+		border: 1px solid #666;
+		border-radius: 6px;
+	}
+
+	.media-body .by {
+		font-size: 0.7em;
+		font-style: italic;
+		margin-top: 0.8em;
+		display: block;
+	}
+
+	#gravatar_preview {
+		img {
+			border-radius: 6px;
+		}
+	}
+
+	.extra {
+		margin-top: -30px;
+		margin-bottom: -10px;
+	}
+}
+
+#respond {
+	label {
+		input {
+			margin-top: -4px;
+		}
+	}
+}
+
+.post, #sidebar {
+	padding-top: 70px;
+	margin-bottom: -60px;
+}
+
+.media .gravatar {
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+.gravatar img, img.gravatar {
+	border-radius: 6px;
+}
+
+.tag-icon {
+	color: @bright-green;
+}
+
+#archivesList {
+	background: none;
+
+	.btn {
+		margin: 0 0 5px 5px;
+	}
+}
+#archiveTopics {
+	.btn {
+		margin: 5px;
+	}
+}
+
+
+.disabled {
+	cursor: not-allowed !important;
+}

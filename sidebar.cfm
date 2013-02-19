@@ -64,21 +64,6 @@
 	</mangox:Pods>
 </mangox:PodGroup>
 
-
-<!---
-<hr class="bufferTop" />
-
-<div class="events">
-	<h3>Events:</h3>
-
-	<!-- lanyrd: conferences -->
-	<script src="http://cdn.lanyrd.net/badges/person-v1.min.js"></script>
-	<div class="lanyrd-target-splat"><a href="http://lanyrd.com/people/adamtuttle/" class="lanyrd-splat lanyrd-number-3 lanyrd-context-future lanyrd-template-detailed lanyrd-type-all" rel="me"></a></div>
-
-	<!-- cfobjective -->
-	<a href="http://www.cfobjective.com" title="I'm speaking at cf.Objective() 2013!"  target="_blank"><img border="0" height="125" width="125" alt="I'm speaking at cf.Objective() 2013!" src="http://www.cfobjective.com/cfo/assets/Image/badges/2013/CFObjective_speaker_125x125.png" /></a>
-</div>
---->
 <hr id="endEvents" />
 <cfoutput>
 	<div class="banners">

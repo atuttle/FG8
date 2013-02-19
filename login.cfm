@@ -2,8 +2,8 @@
 <cfimport prefix="mangox" taglib="../../tags/mangoextras">
 <cfimport prefix="template" taglib=".">
 <template:layout tabs="false" sidebar="false" title="Login &bull; FusionGrokker">
-	<h1>Super Secret Administration Area!</h1>
 	<div class="post">
+		<h1>Super Secret Administration Area!</h1>
 		<mango:RequestVar ifExists="errormsg">
 			<p class="alert alert-error"><mango:RequestVar name="errormsg" /></p>
 		</mango:RequestVar>

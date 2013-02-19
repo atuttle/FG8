@@ -6,11 +6,11 @@
 	<authorUrl>http://fusiongrokker.com</authorUrl>
 	<designAuthor>Adam Tuttle</designAuthor>
 	<designAuthorUrl>http://fusiongrokker.com</designAuthorUrl>
-	<thumbnail>images/preview.png</thumbnail>
+	<thumbnail>assets/preview.png</thumbnail>
 	<preview></preview>
 	<requiresVersion match="greaterOrEqual">1.5</requiresVersion>
 	<adminEditorCss></adminEditorCss>
-	<license>Do Whatever The Fuck You Want To</license>
+	<license>MIT License</license>
 	<pageTemplates>
 		<template file="archives_index.cfm" name="Archives Listing Page" />
 	</pageTemplates>
@@ -20,8 +20,9 @@
 	<podLocations>
 		<location id="sidebar" name="General Sidebar">
 			<!-- template pods defined in the skin -->
-			<pod id="archivesLink">Archives Link</pod>
-			<pod id="serviceLinks">Service Links</pod>
+			<pod id="search">Search with Google</pod>
+			<pod id="subscribe">Subscribe to Entries</pod>
+			<pod id="archives">Link to Archives Index</pod>
 		</location>
 	</podLocations>
 </skin>

@@ -2,17 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/assets\/shadowbox\/shadowbox.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/shadowbox\/shadowbox.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/assets\/shadowbox\/shadowbox.min.js",
-      "fileType" : 64
-    },
     "\/assets\/js\/md5.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -22,6 +11,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/assets\/js\/md5.min.min.js",
+      "fileType" : 64
+    },
+    "\/assets\/shadowbox\/shadowbox.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/shadowbox\/shadowbox.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/assets\/shadowbox\/shadowbox.min.js",
       "fileType" : 64
     },
     "\/archives_index.cfm" : {
@@ -42,15 +42,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/login.cfm" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/login.cfm",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/css\/bootstrap.min.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -60,6 +51,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/login.cfm" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/login.cfm",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/archives.cfm" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -68,17 +68,6 @@
       "inputAbbreviatedPath" : "\/archives.cfm",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/img\/headshot-medium.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/headshot-medium.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/headshot-medium.png",
-      "initialSize" : 46002,
-      "fileType" : 8192
     },
     "\/assets\/less\/combined.less" : {
       "ignoreWasSetByUser" : 0,
@@ -92,6 +81,17 @@
       "strictImports" : 1,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/headshot-medium.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/headshot-medium.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/headshot-medium.png",
+      "initialSize" : 46002,
+      "fileType" : 8192
     },
     "\/assets\/css\/previous.png" : {
       "ignoreWasSetByUser" : 0,
@@ -278,6 +278,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/layout.cfm" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layout.cfm",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/js\/FG8.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -288,15 +297,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/assets\/js\/FG8.min.js",
       "fileType" : 64
-    },
-    "\/layout.cfm" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layout.cfm",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/generic.cfm" : {
       "ignoreWasSetByUser" : 0,
@@ -338,6 +338,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/img\/Taffy.png",
       "initialSize" : 71315,
+      "fileType" : 8192
+    },
+    "\/assets\/preview.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/preview.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/preview.png",
+      "initialSize" : 66877,
       "fileType" : 8192
     },
     "\/assets\/customtags\/htmlfoot.cfm" : {

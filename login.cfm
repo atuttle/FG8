@@ -9,8 +9,8 @@
 		</mango:RequestVar>
 		<form action="<mangox:Environment selfUrl />" method="post" id="login_form">
 			<p>
-				<input name="username" id="username" value="" placeholder="Username" type="text" class="text_input span4" />
-				<input name="password" id="password" value="" type="password" placeholder="Password" class="text_input span4" />
+				<input name="username" id="username" value="" placeholder="Username" type="text" class="text_input span2" />
+				<input name="password" id="password" value="" type="password" placeholder="Password" class="text_input span2" />
 			</p>
 			<p><button name="login" class="form_submit btn btn-large btn-success" type="submit" id="submit"><i class="icon icon-lock icon-large"></i> Login</button></p>
 		</form>

@@ -39,7 +39,7 @@
 		<meta charset="utf-8">
 		<title>#attributes.title#</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="A technical blog by Adam Tuttle">
+		<meta name="description" content="#attributes.title#">
 		<meta name="author" content="Adam Tuttle">
 
 		<!--[if lt IE 9]>
@@ -58,7 +58,7 @@
 		<meta property="og:title" content="FusionGrokker"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:image" content="<cfoutput>#variables.skinUrl#assets/img/headshot-medium.png</cfoutput>"/>
-		<meta property="og:description" content="A technical blog by Adam Tuttle"/>
+		<meta property="og:description" content="#attributes.title#"/>
 
 		<mango:Event name="beforeHtmlHeadEnd" />
 		</cfoutput>
